@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="io.github.rokn.magicapp.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal|top">-->
+            <!--<TextView-->
+                <!--android:id="@+id/debugView"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@color/colorPrimaryDark"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:textSize="35dp" />-->
+        <!--</LinearLayout>-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <io.github.rokn.magicapp.GamePanel
+                android:id="@+id/GameSurface"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            </io.github.rokn.magicapp.GamePanel>
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="New Text"-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_alignBottom="@+id/background"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--&lt;!&ndash;android:layout_alignParentStart="true" />&ndash;&gt;-->
+
+</RelativeLayout>
