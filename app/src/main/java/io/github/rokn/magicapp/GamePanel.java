@@ -40,7 +40,7 @@ public class GamePanel
         item.setImageResource(R.drawable.coin);
         item.setX(0.0f);
         item.setY(0.0f);
-        wallPaper = BitmapFactory.decodeResource(getResources(), R.drawable.wallpaper0);
+        wallPaper = BitmapFactory.decodeResource(getResources(), R.drawable.screen);
 
         WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
         Display display = wm.getDefaultDisplay();
